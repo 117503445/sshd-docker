@@ -23,7 +23,6 @@ func main() {
 		}
 	}
 
-	// call rclone
 	cmd := exec.Command("/usr/sbin/sshd", "-D", "-e")
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stdout
